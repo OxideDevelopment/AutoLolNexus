@@ -125,6 +125,12 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UpdaterLib\UpdaterLib.csproj">
+      <Project>{aefb06e1-848b-4e29-b889-65fa1ae8257d}</Project>
+      <Name>UpdaterLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

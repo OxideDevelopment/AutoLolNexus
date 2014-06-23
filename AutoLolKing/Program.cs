@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using SharpConfig;
 using System.Windows.Forms;
+using UpdaterLib;
 
 namespace AutoLolNexus
 {
@@ -61,7 +62,7 @@ namespace AutoLolNexus
 
         private static void CheckForUpdates()
         {
-            
+            Updater.UpdateAvailable("");
         }
     }
 }
