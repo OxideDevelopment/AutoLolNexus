@@ -40,8 +40,8 @@ namespace AutoLolNexus
                             var setupDialog = new Setup();
                             setupDialog.ShowDialog();
 
-                            category["Server"].Value = setupDialog.ServerName;
-                            category["SummonerName"].Value = setupDialog.SummonerName;
+                            config["AutoLolNexus"]["Server"].Value = setupDialog.ServerName;
+                            config["AutoLolNexus"]["SummonerName"].Value = setupDialog.SummonerName;
                             config["AutoLolNexus"]["Setup"].Value = "true";
 
                             config.Save(Environment.CurrentDirectory + "\\settings.ini");
