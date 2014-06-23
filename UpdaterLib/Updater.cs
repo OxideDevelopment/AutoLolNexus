@@ -8,7 +8,7 @@ using System.Net;
 
 namespace UpdaterLib
 {
-    class Updater
+    public class Updater
     {
 
         public static string UpdateUrl { get; set; }
